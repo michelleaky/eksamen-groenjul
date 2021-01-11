@@ -1,0 +1,448 @@
+/*Generelle*/
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #4e4747;
+}
+
+#kurv #thebigcontainerKurv div {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    color: #4e4747;
+    font-size: 1.5rem;
+}
+
+li {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #4e4747;
+}
+
+h1 {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 2.6rem;
+    color: #4e4747;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #4e4747;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #4e4747;
+}
+
+h4 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #4e4747;
+}
+
+a {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+
+    text-decoration: none;
+    color: #263F0B;
+}
+
+
+@media only screen and (min-width: 768px) {
+    #margin_box {
+        margin: 0 27vw;
+    }
+}
+
+
+
+
+
+
+/*FOOTER*/
+
+
+footer {
+    background-color: #EDE3E0;
+}
+
+#copyright {
+    background-color: #C3ABA9;
+    font-size: 0.7rem;
+    color: white;
+}
+
+#tilmeld_knap {
+    background-color: #263F0B;
+}
+
+footer a {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #4e4747;
+
+}
+
+footer a:hover {
+    color: #D0D7CA;
+    text-decoration: none;
+}
+
+footer input {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #4e4747;
+}
+
+
+
+
+
+
+
+
+/*NAV*/
+
+
+nav img {
+    width: 130px;
+}
+
+#menu a {
+    color: #4e4747
+}
+
+#menu a:hover {
+    color: #D0D7CA;
+}
+
+.hidden {
+    display: none;
+    transition: 0.2s;
+}
+
+#burger {
+    border: none;
+}
+
+@media only screen and (min-width: 100px) {
+    #menu_logo_desk {
+        display: none;
+    }
+
+    #menu_logo_mobil {
+        display: block;
+    }
+
+    nav a {
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+
+    #menu ul {
+        height: 100vh;
+    }
+
+
+}
+
+@media only screen and (min-width: 992px) {
+    #menu_logo_desk {
+        display: block;
+    }
+
+    #menu_logo_mobil {
+        display: none;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+    }
+
+    #menu ul {
+        height: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*Forside*/
+
+.omkring {
+    position: relative;
+}
+
+.streg {
+
+    width: 100vw;
+
+    object-fit: cover;
+    object-position: 39% 50%;
+}
+
+.omkring video {
+    z-index: 1000;
+}
+
+.splash_overskrift {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: 8vw;
+    color: #375d54;
+}
+
+.workshop_img {
+    z-index: 1000;
+}
+
+.f_kasse {
+    width: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+    .splash_overskrift {
+        transform: rotate(90deg);
+        flex-direction: row-reverse;
+        font-size: 3.5vw;
+    }
+
+    .column_p {
+        column-count: 2;
+    }
+
+    .f_kasse {
+        width: 20%;
+    }
+}
+
+
+/* NYE FORSIDE */
+@media only screen and (min-width: 100px) {
+
+    .splash_container > div,
+    .splash_container img {
+        height: 50vh;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .splash_container > div,
+    .splash_container img {
+        height: 75vh;
+    }
+
+    .mom_img .img {
+        height: 100%;
+    }
+
+}
+
+.paralax-billede-naturen {
+    background-image: url(../img/parallaxK.jpg);
+    background-size: cover;
+    height: 45vh;
+    background-attachment: fixed;
+
+}
+
+/*
+.splash_container:nth-child(2) {
+    background-image: url(../img/splash_familie.jpg);
+    background-position: left left;
+
+    background-size: cover;
+}*/
+
+
+#workshop_h2 {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 2.6rem;
+    color: #4e4747;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* inspiration */
+
+.theknap:hover a {
+    color: #5F525B;
+
+}
+
+.theknap a {
+    color: white;
+    font-weight: 300;
+}
+
+.theknap {
+    background-color: #5F525B;
+    border: 2px solid #5F525B;
+}
+
+.theknap:hover {
+    background-color: transparent;
+    border: 2px solid #5F525B;
+}
+
+.tre-billeder {
+    object-fit: cover;
+    object-position: center;
+    height: 30vh;
+
+}
+
+.knap {
+    background-color: #5F525B;
+    color: #ffffff;
+}
+
+.knap a {
+    color: white;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.knap:hover {
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 2px #5F525B;
+    color: #5F525B;
+}
+
+.knap:hover a {
+    color: #5F525B;
+}
+
+
+
+.bg_bord {}
+
+/*
+.billede_link_guide {
+    background-image: url(img/boeredygtigegaver-2.png);
+    opacity: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.myDiv {
+    position: relative;
+    z-index: 1;
+}
+
+
+.myDiv .bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(img/boeredygtigegaver-2.png) center center;
+    background-size: cover;
+    opacity: .4;
+    width: 100%;
+    height: 100%;
+}
+
+.guide-link:hover {
+    background-color: #263F0B;
+    transition: 0.2s;
+}
+
+.guide-link:hover a {
+    color: white;
+}
+*/
+
+@media only screen and (min-width: 768px) {
+    #instafeed {
+        margin: 0 80px 0 80px;
+    }
+}
+
+@media only screen and (min-width: 902px) {
+    #instafeed {
+        margin: 0 200px 0 200px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    #instafeed {
+        margin: 0 350px 0 350px;
+    }
+}
+
+#instafeed img:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+/*
+.row {
+    --bs-gutter-x: 0;
+}
+*/
+
+
+/*                mailchimp           */
+#mce-EMAIL,
+#mce-FNAME,
+#mce-LNAME {
+    border-style: solid;
+    border-color: #4e4747;
+    border-width: thin;
+}
+
+#mc_embed_signup_scroll .knap {
+    border-style: solid;
+    border-color: #5F525B;
+}
+
+#mc_embed_signup_scroll label {
+    border-color: #4e4747;
+}

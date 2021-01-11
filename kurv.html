@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="da">
+
+<head>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+    <link rel="manifest" href="fav/site.webmanifest">
+    <link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!-- Include the above in your HEAD tag-->
+
+
+    <title>Kurv</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        #gron1 {
+            background-color: #D0D7CA;
+            border-color: #D0D7CA;
+            color: #498174;
+        }
+
+        #gron2 {
+            background-color: #D0D7CA;
+            border-color: #D0D7CA;
+            color: #498174;
+        }
+
+        #gron3 {
+            background-color: #D0D7CA;
+            border-color: #D0D7CA;
+            color: #498174;
+        }
+
+        #gron4 {
+            background-color: #D0D7CA;
+            border-color: #D0D7CA;
+            color: #498174;
+        }
+
+        .pris {
+            color: #D1C3C1;
+            font-size: 1.5rem;
+        }
+
+        .theknap {
+            border: 2px solid #263F0B;
+            background-color: white;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 300;
+            font-size: 1rem;
+            color: #263F0B;
+            padding: 15px 60px;
+            transition: 0.2s;
+        }
+
+        .theknap:hover {
+            background-color: #263F0B;
+            color: white;
+        }
+
+        .valgt_info {
+            border-bottom: 2px solid #263F0B;
+        }
+
+        /*
+        .knap {
+        background-color: white;
+        border-style: solid;
+        border-color: #DAC6AB;
+        color: #DAC6AB;
+        padding: 7px 25px 7px 25px;
+        font-size: 1.5em;
+        }
+
+        .knap:hover {
+        border-color: white;
+        color: white;
+        background-color: #DAC6AB;
+
+        }
+*/
+
+        li,
+        ul {
+            list-style: none;
+        }
+
+        nav a {
+            font-size: 19px;
+        }
+
+        footer a {
+            font-size: 15px;
+        }
+
+        footer h4 {
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body id="kurv">
+
+
+
+    <!-- NAV start -->
+
+    <nav id="menu" class="navbar navbar-expand-lg navbar-light">
+        <button id="burger" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="menu_logo_mobil" class="nav-item px-4 py-3">
+            <a class="nav-link d-flex justify-content-center p-0" href="index.html"><img src="svg/logo.svg" alt="Grøn jul logo"></a>
+        </div>
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
+            <ul style="width: 100vw; justify-content: center;" class="navbar-nav py-2">
+                <li class="nav-item px-4 py-3">
+                    <a class="nav-link d-flex justify-content-center" href="julekasser.html"></a>
+                </li>
+                <li class="nav-item px-4 py-3">
+                    <a class="nav-link d-flex justify-content-center" href="workshop.html">Workshop</a>
+                </li>
+                <li class="nav-item px-4 py-3">
+                    <a class="nav-link d-flex justify-content-center" href="julekasser.html">Julekasser</a>
+                </li>
+                <li id="menu_logo_desk" class="nav-item px-4 py-3">
+                    <a class="nav-link d-flex justify-content-center p-0" href="index.html"><img src="svg/logo.svg" alt="Grøn jul logo"></a>
+                </li>
+                <li class="nav-item px-4 py-3">
+                    <a class="nav-link d-flex justify-content-center" href="Inspiration.html">Inspiration</a>
+                </li>
+                <li class="nav-item px-4 py-3">
+                    <a class="nav-link d-flex justify-content-center" href="filosofi.html">Filosofien</a>
+                </li>
+                <li class="nav-item px-4  py-3">
+                    <a class="nav-link d-flex justify-content-center" href="kurv.html"><img style="width: 35px; height: 25px;" src="img/kurv.png" alt="basket kurv"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- NAV slut -->
+
+
+
+
+    <div id="thebigcontainerKurv" class="container wrapper">
+        <div class="row cart-head">
+            <div class="container">
+                <div class="row">
+                    <p></p>
+                </div>
+                <div class="row">
+                    <div style="display: table; margin: auto;">
+                        <span class="step step_complete"> <a style="color: #498174" href="#" class="check-bc">Kurv</a> <span class="step_line step_complete"> </span> <span class="step_line backline"> </span> </span>
+                        <span class="step step_complete"> <a style="color: #498174" href="#" class="check-bc">Betaling</a> <span class="step_line "> </span> <span class="step_line step_complete"> </span> </span>
+                        <span style="color: black" class="step_thankyou check-bc step_complete">Ordrebekræftelse</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="row cart-body">
+            <form class="form-horizontal" method="post">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-md-push-6 col-sm-push-6">
+                    <!--REVIEW ORDER-->
+                    <div style="border-color: #D0D7CA;" class="panel panel-info">
+                        <div id="gron1" class="panel-heading">
+                            Se order <div class="pull-right"><small><a class="afix-1" href="#">Ændre kurv</a></small></div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <div class="col-sm-3 col-xs-3">
+                                    <img class="img-responsive" src="img/produktbilledeK.jpg" alt="produktbillede julekasse">
+                                </div>
+                                <div class="col-sm-6 col-xs-6">
+                                    <div class="col-xs-12">Familiekassen</div>
+                                    <div class="col-xs-12"><small>Quantity:<span>1</span></small></div>
+                                </div>
+                                <div class="col-sm-3 col-xs-3 text-right">
+                                    <h6><span></span>200.00 kr</h6>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <strong>Subtotal</strong>
+                                    <div class="pull-right"><span></span><span>200.00 kr</span></div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <small>Levering</small>
+                                    <div class="pull-right"><span>29.00 kr</span></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <hr />
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <strong>Order Total</strong>
+                                    <div class="pull-right"><span></span><span>229.00 kr</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--REVIEW ORDER END-->
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-md-pull-6 col-sm-pull-6">
+                    <!--SHIPPING METHOD-->
+                    <div style="border-color: #D0D7CA;" class="panel panel-info">
+                        <div id="gron2" class="panel-heading">Adresse</div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <h4>Leverings oplysninger</h4>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-6 col-xs-12">
+                                    <strong>Fornavn:</strong>
+                                    <input type="text" name="first_name" class="form-control" value="" />
+                                </div>
+                                <div class="span1"></div>
+                                <div class="col-md-6 col-xs-12">
+                                    <strong>Efternavn:</strong>
+                                    <input type="text" name="last_name" class="form-control" value="" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>Adresse:</strong></div>
+                                <div class="col-md-12">
+                                    <input type="text" name="address" class="form-control" value="" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>By:</strong></div>
+                                <div class="col-md-12">
+                                    <input type="text" name="city" class="form-control" value="" />
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>Postnummer:</strong></div>
+                                <div class="col-md-12">
+                                    <input type="text" name="zip_code" class="form-control" value="" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>Telefonnummer:</strong></div>
+                                <div class="col-md-12"><input type="text" name="phone_number" class="form-control" value="" /></div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>Email:</strong></div>
+                                <div class="col-md-12"><input type="text" name="email_address" class="form-control" value="" /></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--SHIPPING METHOD END-->
+                    <!--CREDIT CART PAYMENT-->
+                    <div style="border-color: #D0D7CA;" class="panel panel-info">
+                        <div id="gron3" class="panel-heading"><span><i class="glyphicon glyphicon-lock"></i></span> Sikker betaling</div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>Vælg kort:</strong></div>
+                                <div class="col-md-12">
+                                    <select id="CreditCardType" name="CreditCardType" class="form-control">
+                                        <option value="5">Visa</option>
+                                        <option value="6">MasterCard</option>
+                                        <option value="7">American Express</option>
+                                        <option value="8">Discover</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>Kortnummer:</strong></div>
+                                <div class="col-md-12"><input type="text" class="form-control" name="car_number" value="" /></div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>CVV:</strong></div>
+                                <div class="col-md-12"><input type="text" class="form-control" name="car_code" value="" /></div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <strong>Udløbsdato</strong>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <select class="form-control">
+                                        <option value="">Månede</option>
+                                        <option value="01">01</option>
+                                        <option value="02">02</option>
+                                        <option value="03">03</option>
+                                        <option value="04">04</option>
+                                        <option value="05">05</option>
+                                        <option value="06">06</option>
+                                        <option value="07">07</option>
+                                        <option value="08">08</option>
+                                        <option value="09">09</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <select class="form-control">
+                                        <option value="">År</option>
+                                        <option value="2015">2015</option>
+                                        <option value="2016">2016</option>
+                                        <option value="2017">2017</option>
+                                        <option value="2018">2018</option>
+                                        <option value="2019">2019</option>
+                                        <option value="2020">2020</option>
+                                        <option value="2021">2021</option>
+                                        <option value="2022">2022</option>
+                                        <option value="2023">2023</option>
+                                        <option value="2024">2024</option>
+                                        <option value="2025">2025</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <span>Sikker betaling med dine kort</span>
+                                </div>
+                                <div class="col-md-12">
+                                    <ul class="cards">
+                                        <li class="visa hand">Visa</li>
+                                        <li class="mastercard hand">MasterCard</li>
+                                        <li class="amex hand">Amex</li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <button id="gron4" type="submit" class="btn btn-primary btn-submit-fix">Betal</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--CREDIT CART PAYMENT END-->
+                </div>
+
+            </form>
+        </div>
+        <div class="row cart-footer">
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small pt-4 pt-md-5 pb-3 pb-md-4 px-4 px-md-5">
+        <div class="row text-center">
+            <div class="col-md-3 mt-md-0 mt-3">
+                <!-- Begin Mailchimp Signup Form -->
+                <div class="container_fluid">
+                    <div id="mc_embed_signup" class="d-flex justify-content-center">
+
+                        <form action="https://gmail.us2.list-manage.com/subscribe/post?u=b12f98bc7e53fd855cb93a234&amp;id=305ff74eef" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                                <h4>Hold dig opdateret</h4>
+                                <div class="mc-field-group p-2">
+                                    <label for="mce-FNAME"><span style="color: #EDE3E0;"></span></label>
+                                    <input class="px-2 py-1" type="text" value="" name="FNAME" id="mce-FNAME" placeholder="Fornavn">
+                                </div>
+                                <div class="mc-field-group p-2">
+                                    <label for="mce-LNAME"><span style="color: #EDE3E0;"></span></label>
+                                    <input class="px-2 py-1" type="text" value="" name="LNAME" id="mce-LNAME" placeholder="Efternavn">
+                                </div>
+                                <div class="mc-field-group p-2">
+                                    <label for="mce-EMAIL"><span style="color: #EDE3E0;"></span>
+                                    </label>
+                                    <input class="px-2 py-1" type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Indtast mail">
+                                </div>
+                                <div id="mce-responses" class="clear">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b12f98bc7e53fd855cb93a234_305ff74eef" tabindex="-1" value=""></div>
+                                <div class="clear"><input type="submit" value="Tilmeld nyhedsbrev" name="subscribe" id="mc-embedded-subscribe" class="knap mb-4 mb-md-0 mt-2 py-1 px-2"></div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+                <!--End mc_embed_signup-->
+            </div>
+            <div class="col-md-3 mt-md-0 mt-3">
+                <h4>Kontakt os</h4>
+                <ul class="list-unstyled">
+                    <li class="pt-2">
+                        <a href="tel:99999999">Telefon: +45 99999999</a>
+                    </li>
+                    <li class="pt-2">
+                        <a href="mailto:groen@jul.dk">Mail: groen@jul.dk</a>
+
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 mt-md-0 mt-3">
+
+                <h4>Følg os</h4>
+
+
+                <ul class="list-unstyled">
+                    <li class="pt-2">
+                        <a href="https://www.facebook.com/Gr%C3%B8n-Jul-105777344730157">Facebook</a>
+                    </li>
+                    <li class="pt-2">
+                        <a href="https://www.instagram.com/groenjul_kea/?hl=da">Instagram</a>
+                    </li>
+                    <li class="pt-2">
+                        <a href="https://www.youtube.com/channel/UC9mBqo0QVVeLNVzBK4lIGbA/videos">Youtube</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-md-3 mt-md-0 mt-3">
+                <h4>Information</h4>
+                <ul class="list-unstyled">
+                    <li class="pt-2">
+                        <a href="handel.html">Handelsbetingelser</a>
+                    </li>
+                    <li class="pt-2">
+                        <a href="persondata.html">Persondatapolitik</a>
+                    </li>
+                    <li class="pt-2">
+                        <a href="cookie.html">Cookie politik</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+    <!-- Footer -->
+
+
+
+    <!-- Copyright -->
+    <div id="copyright" class="footer-copyright text-center py-2">Dette site er lavet i forbindelse med en caseopgave på kea
+    </div>
+    <!-- Copyright -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-popRpmFF9JQgExhfw5tZT4I9/CI5e2QcuUZPOVXb1m7qUmeR2b50u+YFEYe1wgzy" crossorigin="anonymous"></script>
+
+    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+    <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+
+    <script src="js/script.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+</body></html>

@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="da">
+
+<head>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+    <link rel="manifest" href="fav/site.webmanifest">
+    <link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+    <title>Mødrehjælpen x Grøn Jul</title>
+
+    <!--    NYHEDSBREV START TEEEEEEEEEST-->
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <style>
+        /*
+        #mc_embed_signup {
+        background: #fff;
+        clear: left;
+        }
+*/
+
+        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+
+        .streg_landing {
+            width: 100vw;
+        }
+
+        label {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 400;
+            font-size: 1rem;
+            color: #4e4747;
+        }
+
+        /*
+        .button {
+        background-color: white;
+        border-style: solid;
+        border-color: #DAC6AB;
+        padding: 0px 57px 0px 57px;
+        color: #DAC6AB;
+        border-width: thin;
+        }
+*/
+        /*
+button:hover {
+border-color: white;
+color: white;
+background-color: #DAC6AB;
+}*/
+
+        /*
+        #mce-EMAIL,
+        #mce-FNAME,
+        #mce-LNAME {
+            border-style: solid;
+            border-color: #DAC6AB;
+            border-width: thin;
+
+        }
+*/
+
+        .kassebillede {
+            position: relative;
+            z-index: 1;
+        }
+
+        .kassebillede .bg {
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: url(img/produkt_ovenfra.png) center center;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+        a:hover {
+            color: #D0D7CA;
+        }
+
+        .row {
+            --bs-gutter-x: none;
+        }
+
+        .knap {
+            border-style: solid;
+            border-color: #5F525B;
+            padding: 5px 10px 5px 10px;
+        }
+
+        .knap:hover {
+            color: #5F525B;
+        }
+
+
+        .landing_knap {
+            background-color: white;
+            border-style: solid;
+            border-color: #DAC6AB;
+            color: #DAC6AB;
+            padding: 5px 15px 5px 15px;
+            border-width: thin;
+        }
+
+        #test_video {
+            z-index: 1000;
+        }
+
+    </style>
+    <!--    NYHEDSBREV SLUT TEEEEEEEEEST-->
+</head>
+
+<body>
+
+
+    <!-- NAV start -->
+
+    <nav id="menu" class="navbar navbar-expand-lg navbar-light">
+        <button id="burger" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="menu_logo_mobil" class="nav-item px-4 py-3">
+            <a class="nav-link d-flex justify-content-center p-0" href="index.html"><img src="svg/logo.svg" alt="Grøn jul logo"></a>
+        </div>
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
+            <ul class="navbar-nav py-2">
+                <li class="nav-item px-4 py-3">
+                    <a class="nav-link d-flex justify-content-center" href="julekasser.html"></a>
+                </li>
+                <li class="nav-item px-4 py-3">
+                    <a class="nav-link d-flex justify-content-center" href="workshop.html">Workshop</a>
+                </li>
+                <li class="nav-item px-4 py-3">
+                    <a class="nav-link d-flex justify-content-center" href="julekasser.html">Julekasser</a>
+                </li>
+                <li id="menu_logo_desk" class="nav-item px-4 py-3">
+                    <a class="nav-link d-flex justify-content-center p-0" href="index.html"><img src="svg/logo.svg" alt="Grøn jul logo"></a>
+                </li>
+                <li class="nav-item px-4 py-3">
+                    <a class="nav-link d-flex justify-content-center" href="Inspiration.html">Inspiration</a>
+                </li>
+                <li class="nav-item px-4 py-3">
+                    <a class="nav-link d-flex justify-content-center" href="filosofi.html">Filosofien</a>
+                </li>
+                <li class="nav-item px-4  py-3">
+                    <a class="nav-link d-flex justify-content-center" href="kurv.html"><img style="width: 35px; height: 25px;" src="img/kurv.png" alt="basket kurv"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- NAV slut -->
+
+
+    <div class="container_fluid">
+
+
+
+        <div id="forside_txt1" class=" px-md-0 py-md-4">
+            <!--
+            <div class="d-flex justify-content-center">
+                <h2 class="pb-3 col-md-5">Julepynt der inspirerer, begejstrer og huskes</h2>
+            </div>
+-->
+            <div class="omkring d-flex pt-1" style="justify-content: center; display: flex;">
+                <img style="height: 45vh; z-index: 1;" class="tre-billeder col-10 col-md-5 p-2" src="img/vidonererK.jpg" alt="donere miljø mødrehjælpen formål støt jul børnefamilie organisation">
+                <img style="top: 150px; position: absolute;" class="streg" src="svg/streg.png" alt="illustration julepynt inspiration">
+            </div>
+
+            <div class="d-flex text-center justify-content-center">
+                <h1 class="col-md-6 my-3 col-10">Giv et barn en uforglemmelig jul</h1>
+            </div>
+            <div class="d-flex justify-content-center">
+                <p class="col-md-5 my-1 col-10">
+                    Julen er en ganske særlig tid. Hjemmet skal pyntes, lys skal tændes og der skal julehygges med dem vi holder af. Men for mange er julen en ganske frygtelig tid.
+                    <br><br>
+                    Familier i pengenød, kan ikke give deres børn den magiske juletid, som de fortjener. Derfor har vi indgået et arbejde med Mødrehjælpen, hvor hver en doneret krone vil gå ubeskåret til udsatte børnefamilier i Danmark.
+
+                    <br><br>
+                    <b>I juletiden står vi sammen</b><br>
+                    Mødrehjælpen har en helt særlig julehjælp, hvor børnefamilier kan søge om hjælp. For hvert barn får familien 500 kr, så der er råd til både mad, gaver og alle de julegodter som hører til. <br> <br>
+                    <a href="tps://moedrehjaelpen.dk/" class="knap">Støt Mødrehjælpen direkte
+                    </a>
+
+                    <br> <br>
+
+                    <b>Vi donerer 20% af alle køb</b><br>
+                    Bestiller du en julekasse hjem, eller tilmelder dig vores workshop, så vil 20% af prisen gå til Mødrehjælpen. Så ikke nok med, at du støtter en god sag, da vi går ind for bæredygtig produktion og forsvarligt forbrug, så hjælper du også med at bekæmpe fattigdom i Danmark. Det er to fluer med et smæk.
+
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Section forside text slut-->
+
+
+
+    <!-- CONTAINER SLUT -->
+    <div class="container_fluid">
+        <div class="d-flex justify-content-center">
+            <h1 class="col-md-5 mt-4 col-10 text-center">Workshop</h1>
+        </div>
+        <div id="splash" class="row d-flex justify-content-center">
+            <div class="omkring col-10 col-md-5 d-flex justify-content-center mt-3">
+                <div id="test_video">
+                    <video width="600" autoplay muted loop>
+                        <source src="video/splash.mp4" type="video/mp4">
+                    </video> </div>
+                <img style="top: 60px; position: absolute;" class="streg" src="svg/streg.png" alt="Grønjul julestreg">
+            </div>
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <p class="col-md-5 my-2 col-10 ">Vi tilbyder fire kasser, alt efter dit behov, til en perfekt hjemme-workshop. Skab julehygge i hjemmet, og hjælp på samme tid et udsat barn med at få en magisk jul.<br> <br><a href="julekasser.html" class="knap">Udforsk vores julekasser
+                    <!--                    <div class="knap">Udforsk vores julekasser</div>-->
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Streg start -->
+    <div class="container_fluid">
+        <div class="omkring d-flex" style="justify-content: center; display: flex;">
+            <img style="" class="streg_landing" src="svg/streg_juletrae.png" alt="">
+        </div>
+    </div>
+
+    <!-- Streg slut -->
+
+
+    <!-- Begin Mailchimp Signup Form -->
+    <div class="container_fluid">
+        <div id="mc_embed_signup" class="d-flex justify-content-center mb-5">
+
+            <form action="https://gmail.us2.list-manage.com/subscribe/post?u=b12f98bc7e53fd855cb93a234&amp;id=305ff74eef" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="
+    text-align: -webkit-center;">
+                <div id="mc_embed_signup_scroll">
+                    <h1 class="m-3">Hold dig opdateret</h1>
+                    <div class="mc-field-group p-2">
+                        <label for="mce-FNAME"><span style="color: #EDE3E0;"></span></label>
+                        <input class="px-2 py-1" type="text" value="" name="FNAME" id="mce-FNAME" placeholder="Fornavn">
+                    </div>
+                    <div class="mc-field-group p-2">
+                        <label for="mce-LNAME"><span style="color: #EDE3E0;"></span></label>
+                        <input class="px-2 py-1" type="text" value="" name="LNAME" id="mce-LNAME" placeholder="Efternavn">
+                    </div>
+                    <div class="mc-field-group p-2">
+                        <label for="mce-EMAIL"><span style="color: #EDE3E0;"></span>
+                        </label>
+                        <input class="px-2 py-1" type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Indtast mail">
+                    </div>
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b12f98bc7e53fd855cb93a234_305ff74eef" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Tilmeld nyhedsbrev" name="subscribe" id="mc-embedded-subscribe" class="knap mb-4 mb-md-5 mt-2 py-1 px-2"></div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <!--End mc_embed_signup-->
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small pt-4 pt-md-5 pb-3 pb-md-4 px-4 px-md-5">
+        <div class="row text-center">
+            <div class="col-md-3 mt-md-0 mt-3">
+                <!-- Begin Mailchimp Signup Form -->
+                <!--
+                <div class="container_fluid">
+                    <div id="mc_embed_signup" class="d-flex justify-content-center">
+
+                        <form action="https://gmail.us2.list-manage.com/subscribe/post?u=b12f98bc7e53fd855cb93a234&amp;id=305ff74eef" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                                <h4>Hold dig opdateret</h4>
+                                <div class="mc-field-group p-2">
+                                    <label for="mce-FNAME"><span style="color: #EDE3E0;"></span></label>
+                                    <input class="px-2 py-1" type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="Fornavn">
+                                </div>
+                                <div class="mc-field-group p-2">
+                                    <label for="mce-LNAME"><span style="color: #EDE3E0;"></span></label>
+                                    <input class="px-2 py-1" type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Efternavn">
+                                </div>
+                                <div class="mc-field-group p-2">
+                                    <label for="mce-EMAIL"><span style="color: #EDE3E0;"></span>
+                                    </label>
+                                    <input class="px-2 py-1" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Indtast mail">
+                                </div>
+                                <div id="mce-responses" class="clear">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div>  real people should not fill this in and expect good things - do not remove this or risk form bot signups
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b12f98bc7e53fd855cb93a234_305ff74eef" tabindex="-1" value=""></div>
+                                <div class="clear"><input type="submit" value="Tilmeld nyhedsbrev" name="subscribe" id="mc-embedded-subscribe" class="knap mb-4 mb-md-0 mt-2 py-1 px-2"></div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+-->
+                <!--End mc_embed_signup-->
+                <ul class="list-unstyled">
+                    <li class="nav-item px-4 py-3">
+                        <a class="nav-link d-flex justify-content-center p-0" href="index.html"><img style="width: 100px;" src="img/FAVICON.png" alt="Grøn jul logo"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 mt-md-0 mt-3">
+                <h4>Kontakt os</h4>
+                <ul class="list-unstyled">
+                    <li class="pt-2">
+                        <a href="tel:99999999">Telefon: +45 99999999</a>
+                    </li>
+                    <li class="pt-2">
+                        <a href="mailto:groen@jul.dk">Mail: groen@jul.dk</a>
+
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 mt-md-0 mt-3">
+
+                <h4>Følg os</h4>
+
+
+                <ul class="list-unstyled">
+                    <li class="pt-2">
+                        <a href="https://www.facebook.com/Gr%C3%B8n-Jul-105777344730157">Facebook</a>
+                    </li>
+                    <li class="pt-2">
+                        <a href="https://www.instagram.com/groenjul_kea/?hl=da">Instagram</a>
+                    </li>
+                    <li class="pt-2">
+                        <a href="https://www.youtube.com/channel/UC9mBqo0QVVeLNVzBK4lIGbA/videos">Youtube</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-md-3 mt-md-0 mt-3">
+                <h4>Information</h4>
+                <ul class="list-unstyled">
+                    <li class="pt-2">
+                        <a href="handel.html">Handelsbetingelser</a>
+                    </li>
+                    <li class="pt-2">
+                        <a href="persondata.html">Persondatapolitik</a>
+                    </li>
+                    <li class="pt-2">
+                        <a href="cookie.html">Cookie politik</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+    <!-- Footer -->
+
+
+
+    <!-- Copyright -->
+    <div id="copyright" class="footer-copyright text-center py-2">Dette site er lavet i forbindelse med en caseopgave på kea
+    </div>
+    <!-- Copyright -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-popRpmFF9JQgExhfw5tZT4I9/CI5e2QcuUZPOVXb1m7qUmeR2b50u+YFEYe1wgzy" crossorigin="anonymous"></script>
+
+    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+    <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+
+    <script src="js/script.js"></script>
+
+
+
+    <script src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script>
+        (function($) {
+            window.fnames = new Array();
+            window.ftypes = new Array();
+            fnames[0] = 'EMAIL';
+            ftypes[0] = 'email';
+            fnames[1] = 'FNAME';
+            ftypes[1] = 'text';
+            fnames[2] = 'LNAME';
+            ftypes[2] = 'text';
+            fnames[3] = 'ADDRESS';
+            ftypes[3] = 'address';
+            fnames[4] = 'PHONE';
+            ftypes[4] = 'phone';
+            /*
+             * Translated default messages for the $ validation plugin.
+             * Locale: DA
+             */
+            $.extend($.validator.messages, {
+                required: "Dette felt er påkrævet.",
+                maxlength: $.validator.format("Indtast højst {0} tegn."),
+                minlength: $.validator.format("Indtast mindst {0} tegn."),
+                rangelength: $.validator.format("Indtast mindst {0} og højst {1} tegn."),
+                email: "Indtast en gyldig email-adresse.",
+                url: "Indtast en gyldig URL.",
+                date: "Indtast en gyldig dato.",
+                number: "Indtast et tal.",
+                digits: "Indtast kun cifre.",
+                equalTo: "Indtast den samme værdi igen.",
+                range: $.validator.format("Angiv en værdi mellem {0} og {1}."),
+                max: $.validator.format("Angiv en værdi der højst er {0}."),
+                min: $.validator.format("Angiv en værdi der mindst er {0}."),
+                creditcard: "Indtast et gyldigt kreditkortnummer."
+            });
+        }(jQuery));
+        var $mcj = jQuery.noConflict(true);
+
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
