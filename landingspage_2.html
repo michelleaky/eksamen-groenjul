@@ -118,15 +118,16 @@ background-color: #DAC6AB;
             color: #5F525B;
         }
 
-
-        .landing_knap {
-            background-color: white;
-            border-style: solid;
-            border-color: #DAC6AB;
-            color: #DAC6AB;
-            padding: 5px 15px 5px 15px;
-            border-width: thin;
-        }
+        /*
+.landing_knap {
+background-color: white;
+border-style: solid;
+border-color: #DAC6AB;
+color: #DAC6AB;
+padding: 5px 15px 5px 15px;
+border-width: thin;
+}
+*/
 
         #test_video {
             z-index: 1000;
@@ -141,35 +142,16 @@ background-color: #DAC6AB;
 
     <!-- NAV start -->
 
-    <nav id="menu" class="navbar navbar-expand-lg navbar-light">
-        <button id="burger" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav id="menu" class="navbar navbar-expand-lg navbar-light justify-content-center">
+
         <div id="menu_logo_mobil" class="nav-item px-4 py-3">
             <a class="nav-link d-flex justify-content-center p-0" href="index.html"><img src="svg/logo.svg" alt="Grøn jul logo"></a>
         </div>
-        <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav py-2">
-                <li class="nav-item px-4 py-3">
-                    <a class="nav-link d-flex justify-content-center" href="julekasser.html"></a>
-                </li>
-                <li class="nav-item px-4 py-3">
-                    <a class="nav-link d-flex justify-content-center" href="workshop.html">Workshop</a>
-                </li>
-                <li class="nav-item px-4 py-3">
-                    <a class="nav-link d-flex justify-content-center" href="julekasser.html">Julekasser</a>
-                </li>
+
                 <li id="menu_logo_desk" class="nav-item px-4 py-3">
                     <a class="nav-link d-flex justify-content-center p-0" href="index.html"><img src="svg/logo.svg" alt="Grøn jul logo"></a>
-                </li>
-                <li class="nav-item px-4 py-3">
-                    <a class="nav-link d-flex justify-content-center" href="Inspiration.html">Inspiration</a>
-                </li>
-                <li class="nav-item px-4 py-3">
-                    <a class="nav-link d-flex justify-content-center" href="filosofi.html">Filosofien</a>
-                </li>
-                <li class="nav-item px-4  py-3">
-                    <a class="nav-link d-flex justify-content-center" href="kurv.html"><img style="width: 35px; height: 25px;" src="img/kurv.png" alt="basket kurv"></a>
                 </li>
             </ul>
         </div>
@@ -177,115 +159,92 @@ background-color: #DAC6AB;
     <!-- NAV slut -->
 
 
-    <div class="container_fluid">
+    <div class="container-fluid">
+        <div class="row splash_container d-flex justify-content-center mt-3 mb-3">
+            <div class="p-0 col-md-5">
 
+                <img style="object-fit: cover;  object-position: 70% 0%;" src="img/paralaxk22.png" alt="Pyntet flot juletræ grønjul">
+                <!-- Begin Mailchimp Signup Form -->
+                <div class="nyhedsbrev_signup" style="position: absolute; text-align: left;">
+                    <div id="mc_embed_signup" class="d-flex justify-content-center">
+                        <form action="https://gmail.us2.list-manage.com/subscribe/post?u=b12f98bc7e53fd855cb93a234&amp;id=305ff74eef" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                                <h1 class="mail_overskrift px-1">Hold dig opdateret</h1>
+                                <div class=" mc-field-group pt-1">
+                                    <label for="mce-FNAME"><span style="color: #EDE3E0;"></span></label>
+                                    <input class="udfyld_baggrund px-2 py-1" type="text" value="" name="FNAME" class="landing_mce-FNAME" placeholder="Fornavn">
+                                </div>
+                                <div class="mc-field-group pt-2">
+                                    <label for="mce-LNAME"><span style="color: #EDE3E0;"></span></label>
+                                    <input class="udfyld_baggrund px-2 py-1" type="text" value="" name="LNAME" class="landing_mce-LNAME" placeholder="Efternavn">
+                                </div>
+                                <div class="mc-field-group pt-2">
+                                    <label for="mce-EMAIL"><span style="color: #EDE3E0;"></span>
+                                    </label>
+                                    <input class="udfyld_baggrund px-2 py-1" type="email" value="" name="EMAIL" class="landing_mce-EMAIL" placeholder="E-mail">
+                                </div>
+                                <div id="mce-responses" class="clear">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b12f98bc7e53fd855cb93a234_305ff74eef" tabindex="-1" value=""></div>
+                                <div class="clear px-1"><input type="submit" value="Tilmeld nyhedsbrev" name="subscribe" id="mc-embedded-subscribe" class="landing_knap mb-4 mb-md-0 mt-2 py-1 px-2"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!--End mc_embed_signup-->
+            </div>
+            <div style="background-color: #C0A8A6; justify-content: center; align-items: center; flex-direction: column;" class="d-flex text-center col-md-4">
+                <h1 style="color: #4F4646;">Giv et barn en magisk jul</h1>
+                <p style="color: #4F4646;">Grøn Jul x Mødrehjælpen</p>
+            </div>
 
+        </div>
 
-        <div id="forside_txt1" class=" px-md-0 py-md-4">
-            <!--
+        <!-- OVERSKRIFT -->
+        <div id="tekst_fade">
             <div class="d-flex justify-content-center">
-                <h2 class="pb-3 col-md-5">Julepynt der inspirerer, begejstrer og huskes</h2>
-            </div>
--->
-            <div class="omkring d-flex pt-1" style="justify-content: center; display: flex;">
-                <img style="height: 45vh; z-index: 1;" class="tre-billeder col-10 col-md-5 p-2" src="img/vidonererK.jpg" alt="donere miljø mødrehjælpen formål støt jul børnefamilie organisation">
-                <img style="top: 150px; position: absolute;" class="streg" src="svg/streg.png" alt="illustration julepynt inspiration">
+                <h1 class="text-center my-5 col-10 col-md-5">Vi donerer 20% til Mødrehjælpen</h1>
             </div>
 
-            <div class="d-flex text-center justify-content-center">
-                <h1 class="col-md-6 my-3 col-10">Giv et barn en uforglemmelig jul</h1>
-            </div>
-            <div class="d-flex justify-content-center">
-                <p class="col-md-5 my-1 col-10">
-                    Julen er en ganske særlig tid. Hjemmet skal pyntes, lys skal tændes og der skal julehygges med dem vi holder af. Men for mange er julen en ganske frygtelig tid.
-                    <br><br>
-                    Familier i pengenød, kan ikke give deres børn den magiske juletid, som de fortjener. Derfor har vi indgået et arbejde med Mødrehjælpen, hvor hver en doneret krone vil gå ubeskåret til udsatte børnefamilier i Danmark.
+            <!-- BRØDTEKST -->
+            <div style="display: flex; justify-content: center;">
+                <p class="col-md-5 mb-5 col-10 ">Mødrehjælpen har en helt særlig julehjælp, hvor børnefamilier kan søge om hjælp. For hvert barn får familien 500 kr, så der er råd til både mad, gaver og alle de julegodter som hører til. <br> <br>
 
-                    <br><br>
-                    <b>I juletiden står vi sammen</b><br>
-                    Mødrehjælpen har en helt særlig julehjælp, hvor børnefamilier kan søge om hjælp. For hvert barn får familien 500 kr, så der er råd til både mad, gaver og alle de julegodter som hører til. <br> <br>
-                    <a href="tps://moedrehjaelpen.dk/" class="knap">Støt Mødrehjælpen direkte
-                    </a>
-
-                    <br> <br>
-
-                    <b>Vi donerer 20% af alle køb</b><br>
                     Bestiller du en julekasse hjem, eller tilmelder dig vores workshop, så vil 20% af prisen gå til Mødrehjælpen. Så ikke nok med, at du støtter en god sag, da vi går ind for bæredygtig produktion og forsvarligt forbrug, så hjælper du også med at bekæmpe fattigdom i Danmark. Det er to fluer med et smæk.
-
 
                 </p>
             </div>
         </div>
-    </div>
-    <!-- Section forside text slut-->
-
-
-
-    <!-- CONTAINER SLUT -->
-    <div class="container_fluid">
-        <div class="d-flex justify-content-center">
-            <h1 class="col-md-5 mt-4 col-10 text-center">Workshop</h1>
-        </div>
-        <div id="splash" class="row d-flex justify-content-center">
-            <div class="omkring col-10 col-md-5 d-flex justify-content-center mt-3">
-                <div id="test_video">
-                    <video width="600" autoplay muted loop>
-                        <source src="video/splash.mp4" type="video/mp4">
-                    </video> </div>
-                <img style="top: 60px; position: absolute;" class="streg" src="svg/streg.png" alt="Grønjul julestreg">
+        <div class="d-flex" style="justify-content: center">
+            <div class="paralax-billede-modrehjolp d-flex mt-3 mb-3 col-12 col-md-9" style="justify-content: center; align-items: center;">
+                <h1 class="text-center p-3" style="color: white;">I juletiden står vi sammen</h1>
             </div>
+
         </div>
-        <div style="display: flex; justify-content: center;">
-            <p class="col-md-5 my-2 col-10 ">Vi tilbyder fire kasser, alt efter dit behov, til en perfekt hjemme-workshop. Skab julehygge i hjemmet, og hjælp på samme tid et udsat barn med at få en magisk jul.<br> <br><a href="julekasser.html" class="knap">Udforsk vores julekasser
-                    <!--                    <div class="knap">Udforsk vores julekasser</div>-->
-                </a>
-            </p>
-        </div>
-    </div>
 
-    <!-- Streg start -->
-    <div class="container_fluid">
-        <div class="omkring d-flex" style="justify-content: center; display: flex;">
-            <img style="" class="streg_landing" src="svg/streg_juletrae.png" alt="">
-        </div>
-    </div>
+        <!-- BILLEDE MED FAMILIEN DER SIDDER VED JULETRÆET -->
 
-    <!-- Streg slut -->
-
-
-    <!-- Begin Mailchimp Signup Form -->
-    <div class="container_fluid">
-        <div id="mc_embed_signup" class="d-flex justify-content-center mb-5">
-
-            <form action="https://gmail.us2.list-manage.com/subscribe/post?u=b12f98bc7e53fd855cb93a234&amp;id=305ff74eef" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="
-    text-align: -webkit-center;">
-                <div id="mc_embed_signup_scroll">
-                    <h1 class="m-3">Hold dig opdateret</h1>
-                    <div class="mc-field-group p-2">
-                        <label for="mce-FNAME"><span style="color: #EDE3E0;"></span></label>
-                        <input class="px-2 py-1" type="text" value="" name="FNAME" id="mce-FNAME" placeholder="Fornavn">
-                    </div>
-                    <div class="mc-field-group p-2">
-                        <label for="mce-LNAME"><span style="color: #EDE3E0;"></span></label>
-                        <input class="px-2 py-1" type="text" value="" name="LNAME" id="mce-LNAME" placeholder="Efternavn">
-                    </div>
-                    <div class="mc-field-group p-2">
-                        <label for="mce-EMAIL"><span style="color: #EDE3E0;"></span>
-                        </label>
-                        <input class="px-2 py-1" type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Indtast mail">
-                    </div>
-                    <div id="mce-responses" class="clear">
-                        <div class="response" id="mce-error-response" style="display:none"></div>
-                        <div class="response" id="mce-success-response" style="display:none"></div>
-                    </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b12f98bc7e53fd855cb93a234_305ff74eef" tabindex="-1" value=""></div>
-                    <div class="clear"><input type="submit" value="Tilmeld nyhedsbrev" name="subscribe" id="mc-embedded-subscribe" class="knap mb-4 mb-md-5 mt-2 py-1 px-2"></div>
+        <section id="forside_workshop" style="" class="row d-flex justify-content-center mt-1">
+            <div class="col-10 col-md-5">
+                <div class="d-flex text-center justify-content-center">
+                    <h2 id="workshop_h2" class="mb-5">Vi holder juleworkshop </h2>
                 </div>
+                <div class="d-flex justify-content-center">
+                    <p class="">I år har vi sat os for en lille mission. Vi vil skabe en bærerdygtig jul. Det har vi brug for din hjælp til.
+                        <br> <br> Kom og vær med til at lave bæredygtig julepynt, spise æbleskiver og julehygge hver søndag i advent på Folkehuset Absalon.
+                    </p>
+                </div>
+            </div>
 
-            </form>
+        </section>
+
+        <div style="    text-align-last: center;">
+            <div style=" color: white; width: 300px; border-radius: 0; cursor: pointer; " class="btn theknap px-4 py-2 my-5"> <a href="workshop.html">Udforsk vores juleworkshop</a></div>
         </div>
+
     </div>
-    <!--End mc_embed_signup-->
 
 
 

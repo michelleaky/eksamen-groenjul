@@ -446,3 +446,88 @@ nav img {
 #mc_embed_signup_scroll label {
     border-color: #4e4747;
 }
+
+
+
+
+
+
+/***** Landingspage 2 *********/
+
+.mail_overskrift {
+    color: white;
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 1.5rem;
+}
+
+.landing_knap {
+    background-color: #C0A8A6;
+    color: #5F525B;
+    border: none;
+}
+
+.landing_knap a {
+    color: white;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.landing_knap:hover {
+    border: none;
+    color: #C0A8A6;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.landing_knap:hover a {
+    color: #C0A8A6;
+}
+
+.nyhedsbrev_signup {
+    top: 150px;
+    left: 5%;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .nyhedsbrev_signup {
+        top: 150px;
+        left: 15%;
+    }
+}
+
+
+.udfyld_baggrund {
+    background-color: rgba(255, 255, 255, 0.48);
+    border: none;
+}
+
+
+.landing_mce-EMAIL,
+.landing_mce-FNAME,
+.landing_mce-LNAME {
+    border-style: solid;
+    border-color: #C0A8A6;
+    border-width: thin;
+}
+
+.nyhedsbrev_signup ::placeholder {
+    color: white;
+    font-weight: 200;
+}
+
+
+.paralax-billede-modrehjolp {
+    background-image: url(../img/parallaxkk.png);
+    background-size: cover;
+    height: 50vh;
+    background-attachment: fixed;
+
+}
+
+.streg_landing {
+
+    width: 100vw;
+
+    object-fit: cover;
+    object-position: 65% 50%;
+}
